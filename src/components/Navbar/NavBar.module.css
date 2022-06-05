@@ -1,0 +1,27 @@
+.NavBarContainer{
+  display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    align-items: flex-end;
+}
+.navBar{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-content: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+  padding: 12px 25px;
+}
+nav li a {
+  color:white !important
+}

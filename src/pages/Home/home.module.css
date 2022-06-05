@@ -1,0 +1,15 @@
+.HomeContainer {
+  width: 100%;
+
+}
+.purpleBox{
+  height:500px;
+  width:900px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(to right, #5514e0 , #7e1ff2);
+  clip-path:  polygon(40% 100%, 180% 0%, 10% 0%);;
+}
+
