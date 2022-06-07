@@ -1,17 +1,68 @@
 body {
   margin: 0;
-  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+input:focus-visible{
+  outline: none;
 }
 a{
   text-decoration: none !important;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.d-flex{
+  display: flex;
+}
+.flex-column{
+  flex-direction: column;
+}
+.justify-content-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.justify-content-evenly{
+  justify-content: space-evenly;
+}
+.align-items-center{
+  align-items: center;
+}
+.align-content-center{
+  align-content: center;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+.flex-grow{
+  flex-grow: 1;
+}
+.text-center{
+  text-align: center;
+}
+.svg-center{
+  margin: auto;
+}
+.Divider{
+  border: 1px solid linear-gradient(to right, #5514e0 , #7e1ff2);
 }

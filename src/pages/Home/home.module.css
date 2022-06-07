@@ -1,15 +1,363 @@
 .HomeContainer {
-  width: 100%;
-
+  display: flex;
+  width: 1225px;
+  flex-direction: column;
+  margin:  auto;
 }
-.purpleBox{
-  height:500px;
+.containerSections{
+  width: 1100px;
+  margin: 2.5rem auto;
+}
+/* .purpleBox{
+  height:550px;
   width:900px;
   position: absolute;
   top: 0;
   right: 0;
   z-index: -1;
   background-image: linear-gradient(to right, #5514e0 , #7e1ff2);
-  clip-path:  polygon(40% 100%, 180% 0%, 10% 0%);;
+  clip-path:  polygon(60% 120%, 180% 0%, 10% 0%);
+} */
+
+.sectContent1{
+  padding: 0rem 2rem;
 }
 
+.sectContent1 h1{
+  font-size: 62px;
+  margin: 0;
+}
+
+.sectContent1 .GetStartedButton{
+  width : min-content;
+  white-space: nowrap;
+  padding: 0.7rem 1.5rem;  
+  border-radius: 5px;
+  color: white;
+  font-size: 22px;
+  background: linear-gradient(to right, #5514e0 , #7e1ff2) !important;
+}
+.section{
+  margin-bottom: 5rem;
+}
+.section:nth-child(3){
+  padding: 4rem 3rem;
+  background-color: rgba(225, 238, 245, 0.5);
+}
+.sectContent1 p{
+  font-size: large;
+  word-break: break-all;
+}
+
+.sectContent2 .sectHeader2 h1 {
+  font-size: 56px;
+  margin: 0;
+}
+.sectContent2 .sectHeader2 p {
+  max-width: 650px;
+  font-size: large;
+  text-align: center;
+}
+.sectBody2{
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.sectBody2 div{
+  width: 30%;
+  margin: 10px 1%;
+}
+.sectBody2 div img{
+  width: 30%;
+  margin: auto;
+}
+
+.sectBody3{
+  max-width: 380px;
+}
+.sectBody3 h1{
+  font-size: 45px;
+  margin-bottom: 7px;
+}
+.sectBody3 p{
+  font-size: 16px;
+  padding-left: 7px;
+  margin-bottom: 7px;
+  color:gray
+}
+.sectBody3 button{
+  background-color: white;
+  padding: 0.5rem;
+  margin: 1rem;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.sectBody3 button{
+  margin-left: 0;
+}
+.sectBody4 h1{
+  font-size: 52px;
+  margin: 0;
+}
+.sectBody4 .imgBox {
+  padding: 0.7rem;
+  box-shadow: 1px 1px 5px 1px rgb(226, 226, 226);
+}
+.sectBody4 p {
+  padding-left: 1rem;
+  max-width: 500px;
+  color: gray;
+}
+.sectBody4 .LearnMore {
+  width: min-content;
+  width : min-content;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;  
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to right, #5514e0 , #7e1ff2) !important;
+}
+
+.sectTitle5 h1{
+  font-size: 50px;
+  margin: 0;
+}
+.sectTitle5 p{
+  max-width: 600px;
+  font-size: medium;
+  color: white;
+}
+.sectTitle5 h1{
+  font-size: 50px;
+  margin: 0;
+}
+.section:nth-child(5){
+  background: linear-gradient(to bottom right, #5514e0 , #7e1ff2) !important;
+  margin-top: 3rem;
+  color: white;
+  padding: 6rem 6rem;
+}
+
+.sectBody5{
+margin-top: 5rem;
+}
+
+.sectBody5 img{
+  width: 30;
+  height: 30;
+  margin: auto;
+}
+
+.section:nth-child(5){
+  margin: 0;
+}
+.section:nth-child(6){
+  margin: 0;
+}
+.sectContainer6{
+  padding: 2.5rem 4rem;
+  background-color: rgba(225, 238, 245, 0.5);
+}
+.sectTitle6 h1{
+  font-size: 40px ;
+  margin: 0;
+}
+.sectContent6 .PriceCard{
+  position: relative  !important;
+  background-color: white;
+  border-radius: 15px;
+  margin: 5rem 3rem;
+  padding: 2.5rem ;
+  width: 250px
+}
+.sectContent6 .PriceCard .Price{
+color:#7e1ff2;
+font-size: 40px;
+font-weight: bold;
+margin: 0;
+}
+.sectContent6 .PriceCard h1{
+  font-size: 35px;
+}
+.sectContent6 .PriceCard .Price span{
+font-size: x-large
+}
+.sectContent6 .PriceCard .ListInCard ul{
+  margin-top: 2rem;
+}
+.sectContent6 .PriceCard .ListInCard li{
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(224, 224, 224);
+}
+.sectContent6 .PriceCard .ListInCard li:nth-child(1) {
+  border-top: 1px solid rgb(224, 224, 224);
+}
+.sectContent6 .PriceCard .signUpButton {
+  width: min-content;
+  position: absolute;
+  bottom: -20px;
+  left: 110px;
+  text-align: center;
+}
+
+.sectContent6 .PriceCard .signUpButton button {
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;  
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to right, #5514e0 , #7e1ff2) !important;
+}
+
+.sectTitle7 h1{
+  font-size: 42px ;
+  margin: 0;
+}
+.sectTitle7 p{
+  max-width: 600px;
+}
+.section{
+  max-width: 100%;
+
+}
+.section:nth-child(7){
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+.sectContainer7{
+  z-index: 1;
+  background-color: rgba(0, 3, 34, 0.699);
+  color: white;
+  padding: 6rem 4rem;
+}
+.sectContent7 img{
+  margin: 10px 5px;
+}
+
+.sectTitle8{
+  position: relative;
+}
+.sectTitle8 div:first-child{
+  position: relative;
+}
+.sectTitle8 div img{
+}
+
+.sectTitle8 h1{
+  font-size: 42px;
+  margin: 0;
+}
+.sectTitle8 p{
+  font-size: 16px;
+  max-width: 700px;
+}
+.secContent8 {
+  margin-top: 2rem;
+}
+.secContent8 form{
+  width: 700px;
+}
+.secContent8 p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.secContent8 input{
+  width: 100%;
+  height: 35px;
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px 1px rgb(173, 173, 173);
+}
+.secContent8 button{
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;  
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to right, #5514e0 , #7e1ff2) !important;
+}
+
+.sectContainer9{
+      padding: 2.5rem 4rem;
+  background-color: rgba(225, 238, 245, 0.2);
+}
+
+.sectTitle9 h1{
+  font-size: 46px;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sectTitle9 p{
+  font-size: 16px;
+  max-width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sectContent9{
+  padding: 4rem 2rem;
+}
+.sectContent9 .sectContentSummary{
+  width: 50%;
+  margin-right: 5%;
+}
+.sectContent9 .sectContentSummary p{
+  max-width: 100%;
+  font-size: 12px;
+  margin-top: 0;
+}
+.sectContent9 .sectContentSummary .imgBox{
+  background-color: #7e1ff2;
+  padding: 0.4rem;
+  margin-right: 7px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+
+.sectContent9 .sendMsgForm {
+  width: 45%
+}
+.sectContent9 .sendMsgForm .inputCont{
+  width: 100%;
+  height: 35px;
+  background-color: white;
+  box-shadow: 1px 1px 5px 1px rgb(173, 173, 173);
+  padding: 0 10px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.sectContent9 .sendMsgForm .textAreaCont textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  background-color: white;
+  border: none;
+  box-shadow: 1px 1px 7px 1px rgb(173, 173, 173);
+  padding: 10px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.sectContent9 .sendMsgForm .textAreaCont textarea:focus-visible{
+  outline: 0;
+}
+
+.sectContent9 .sendMsgForm .inputCont input{
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+  padding: 2px 0;
+  border: none
+}
+.sectContent9 .sendMsgForm  button{
+  width: 100%;
+  white-space: nowrap;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;  
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  background: linear-gradient(to right, #7849df , #7e1ff2) !important;
+}

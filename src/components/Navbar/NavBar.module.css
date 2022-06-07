@@ -1,12 +1,22 @@
 .NavBarContainer{
-  display: flex;
-    max-width: 1050px;
+  position: relative;
+    width: 100%;
+    right: 0;
     margin: 0 auto;
-    align-items: flex-end;
+}
+.purpleBox{
+  position: absolute;
+  height:550px;
+  width:900px;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-image: linear-gradient(to right, #5514e0 , #7e1ff2);
+  clip-path:  polygon(60% 120%, 180% 0%, 10% 0%);
 }
 .navBar{
   display: flex;
-  width: 100%;
+  width: 1100px;
   justify-content: flex-end;
   align-content: center;
 }
@@ -20,8 +30,11 @@ nav ul {
 nav ul li {
   display: inline;
   text-decoration: none;
-  padding: 12px 25px;
+  padding: 1.2rem 25px;
 }
 nav li a {
   color:white !important
+}
+
+@media (max-width: 420px){
 }

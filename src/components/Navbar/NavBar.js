@@ -12,6 +12,7 @@ const navBarMenu = [
 export default function NavBar() {
   return (
     <div className={c.NavBarContainer}>
+      <div className={c.purpleBox}></div>
       <nav className={c.navBar}>
         <ul>
           {navBarMenu.map((page, i) => {
